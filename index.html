@@ -1,0 +1,27 @@
+<html>
+
+    <head>
+        <!-- <script src="https://kit.fontawesome.com/40692bf9e7.js" crossorigin="anonymous"></script> -->
+        <link rel="stylesheet" href="./CSS/all.min.css">
+        <link rel="stylesheet" href="./css/bootstrap.min.css">
+        <link rel="stylesheet" href="./css/style.css">
+    </head>
+        
+    <body >
+
+        <main class="container my-5 text-center w-75 vh-100">
+            <div class="content m-auto w-75 p-5">
+                <h1 class="text-info" >Smart Login System</h1>
+                <input oninput="MailValidation();" type="email" class="form-control my-3 " placeholder="Enter your email" id="UserMail" required>
+                <input type="password" class="form-control my-3" placeholder="Enter your Password" id="UserPass" required>
+                <p class="" id="errorMessage"></p>
+                <button onclick="LoginFun();" class="my-3 btn border-1 border-info w-100 text-info" type="submit">LogIn</button>
+                <p class="text-white">Don’t have an account? <a class="text-white" href="signup.html">Sign Up</a></p>
+
+            </div>
+        </main>
+        
+        <script src="JS/bootstrap.bundle.min.js"></script>
+        <script src="JS/index.js"></script>
+    </body>
+</html>
